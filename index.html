@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار سرعة الإنترنت</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external stylesheet -->
+</head>
+<body>
+    <div class="container">
+        <h1>اختبار سرعة الإنترنت</h1>
+        <button id="startTest">بدء الاختبار</button>
+        <button id="stopTest" disabled>إيقاف الاختبار</button>
+        <div id="result">
+            <div class="result-item">
+                <img src="telecharger-le-bouton-carre.png" alt="رمز التحميل" class="result-icon">
+                <p>سرعة التحميل: <span id="downloadSpeed">0</span> ميجابت/ثانية</p>
+            </div>
+            <div class="result-item">
+                <img src="bouton-carre-fleche-vers-le-haut.png" alt="رمز الرفع" class="result-icon">
+                <p>سرعة الرفع: <span id="uploadSpeed">0</span> ميجابت/ثانية</p>
+            </div>
+            <div class="result-item">
+                <img src="ping-test-live-logo-528AD850EE-seeklogo.com.png" alt="رمز التأخير" class="result-icon">
+                <p>التأخير: <span id="ping">0</span> مللي ثانية</p>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
